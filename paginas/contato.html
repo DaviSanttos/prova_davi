@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/formulario.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Empresa Google</title>
+</head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Contate-Nos</h1>
+            <form action="#">
+                <ul>
+                    <li>
+                        <input type="text" name="nome" id="nome">
+                        <label for="nome" id="nome">Nome*</label>
+                    </li>
+                    <li>
+                        <input type="email" name="email" id="email">
+                        <label for="email" id="email">Email*</label>
+                    </li>
+                    <li>
+                        <input type="tel" name="telefone" id="telefone">
+                        <label for="telefone" id="telefone">Telefone</label>
+                    </li>
+                    <li>
+                        <input type="text" name="endereco" id="endereco">
+                        <label for="endereco" id="endereco">Endereço</label>
+                    </li>
+                    <li>
+                        <input type="date" name="nascimento" id="nascimento">
+                        <label for="nascimento" id="nascimento">Data de Nascimento</label>
+                    </li>
+                    <li>
+                        <select name="selctwhere" id="selctwhere">
+                            <option value="amigos">Amigos</option>
+                        </select>
+                        <label for="selctwhere">Onde nos conheceu?</label>
+                    </li>
+                    <li id="textArea">
+                        <textarea name="message" id="message" cols="30" rows="2"></textarea>
+                        <label for="message">Mensagem</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Deseja receber novidades?</label>
+                    </li>
+                    <li id="enviar">
+                        <input type="submit" value="Enviar">
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </body>
+</html>
